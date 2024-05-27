@@ -1,0 +1,12 @@
+0 Pepper Bacterial Spot
+1 Pepper Healthy
+2 Potato Blight
+3 Potato Healthy
+4 Tomato Target Spot
+5 Tomato Mosaic
+6 Tomato Y.L. Curl
+7 Tomato Bacterial Spot
+8 Tomato Leaf Mold
+9 Tomato Septoria
+10 Tomato Healthy
+11 Tomato Blight

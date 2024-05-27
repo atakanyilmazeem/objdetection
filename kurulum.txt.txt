@@ -1,0 +1,21 @@
+- daha rahat okuyabilmek için not defteri yazılımında biçim sekmesinde sözcük kaydır seçeneğini aktif ediniz -
+
+Yazılımı çalıştırmak öncelikle bir venv ortamı kurmamız gerekmektedir. Venv, yazılım için gereken kütüphaneleri cihazımıza direkt yüklememizi engelleyen bu sayede herhangi bir sorun oluştuğunda kolayca müdahele etmemizi sağlayan bir çekirdek yazılımdır. Venv kurabilmek için proje dosyasının içerisine girip aşağıdaki komutları yazıyoruz:
+
+1.    python -m venv env  		 	    #Venv kütüphanesi ile env adında bir sanal ortam oluşturuyoruz . çalışmaz ise 1.1 numaralı kodu deneyiniz
+
+1.1   python3 -m venv env                	    #1 numaralı kod ile aynı işleve sahiptir. Python yazılımını çalıştırma yolları farklı olabildiği için eklenmiştir.
+
+2.    source .venv/bin/activate 	 	    # eğer unix / linux / macos tabanlı bir işletim sistemi kullanıyorsanız bu kodu çalıştırmalısınız.
+	
+2.1   .venv\bin\Activate.bat      	 	    # eğer windows tabanlı bir işletim sistemi kullanıyorsanız bu kodu çalıştırmalısınız.
+
+3.    python -m pip install -r requirements.txt     # görüntü işleme yazılımının kullanması gereken kütüphaneleri yüklüyoruz.
+
+4.    python app.py          			    # yazılımı çalıştırıyoruz.
+
+Yazılımı test etmek için örnekler klasorunde yer alan fotografları kullanabilirsiniz. 
+
+Eğer isterseniz labels.txt içerisindeki metinleri değiştirebilirsiniz.
+
+Kolay gelsin.
